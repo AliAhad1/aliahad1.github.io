@@ -266,6 +266,11 @@ input:checked + .slider::before {
   margin-right: 5px;
 }
 
+
+#contact h1{
+  text-align: center;
+  padding-bottom: 1em;
+}
 @media only screen and (max-width: 600px) {
   .about-container {
     flex-direction: column;
@@ -282,4 +287,29 @@ input:checked + .slider::before {
   .image-container h2{
     text-align: center;
   }
+  .title-group h1{
+    font-size: 55px;
+  }
+  .text-box{
+    width: 60%;
+  }
+  #project h1{
+    text-align: center;
+    font-size: 60px;
+  }
+  #contact h1{
+    text-align: center;
+    font-size: 60px;
+  }
+  .social-icons{
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .social-icons i{
+    padding-top: 0.5em;
+    
+  }
+  
 }
