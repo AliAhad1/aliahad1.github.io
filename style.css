@@ -312,5 +312,8 @@ input:checked + .slider::before {
     margin: 0;
     
   }
+  .navlink{
+    display: none;
+  }
   
 }
