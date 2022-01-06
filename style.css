@@ -97,6 +97,14 @@ a:focus {
   }
 }
 
+
+
+
+
+
+
+
+/* Projects Section */
 .image-container {
   border: 1px solid var(--secondary-color);
   border-radius: 10px;
@@ -112,7 +120,7 @@ img {
   width: 300px;
 }
 
-/* Projects Section */
+
 .buttons {
   margin-top: 15px;
   margin-bottom: 50px;
@@ -177,6 +185,40 @@ p {
   margin: 0;
   line-height: 25px;
 }
+
+.about-container{
+  padding-bottom: 1rem;
+}
+.project-btn{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5rem;
+  
+}
+
+.image-container h2{
+  text-align: center;
+  justify-content: center;
+}
+
+
+/* Blog Section */
+
+.blog-container{
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-right: 25px;
+  width: auto;
+  background: var(--background);
+  box-shadow: var(--box-shadow);
+}
+
+
+
+
+
 
 /* Contact Section */
 .fab {

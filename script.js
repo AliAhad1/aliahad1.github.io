@@ -5,6 +5,9 @@ const toggleIcone= document.getElementById('toggle-icon');
 const image1= document.getElementById('image1');
 const image2= document.getElementById('image2');
 const image3= document.getElementById('image3');
+const image4= document.getElementById('image4');
+const image5= document.getElementById('image5');
+const image6= document.getElementById('image6');
 const textBox= document.getElementById('text-box');
 
 // Dark or Light Image
@@ -12,6 +15,9 @@ function imageMode(color){
     image1.src= `img/responsive-${color}.svg`;
     image2.src= `img/slider-${color}.svg`;
     image3.src= `img/tabs-${color}.svg`;
+    image4.src= `img/responsive-${color}.svg`;
+    image5.src= `img/slider-${color}.svg`;
+    image6.src= `img/tabs-${color}.svg`;
 
 }
 
