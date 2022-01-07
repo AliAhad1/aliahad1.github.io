@@ -81,6 +81,20 @@ a:focus {
 }
 
 
+/*phone nav none */
+#toggle{
+  display: none;
+}
+
+.hamburger{
+  display: none;
+}
+
+.nav{
+  display: none;
+}
+
+
 
 /* Home Section */
 .title-group {
@@ -378,7 +392,7 @@ input:checked + .slider::before {
 **/
 .hamburger {
   position: fixed;
-  top: 5em;
+  top: 4em;
   left: 15%;
   margin-left: -2em;
   margin-top: -45px;
