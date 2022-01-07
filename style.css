@@ -326,7 +326,7 @@ input:checked+.slider::before {
 
 
 @media only screen 
-  and (min-device-width: 320px) 
+  and (min-device-width: 220px) 
   and (max-device-width: 680px)
   and (-webkit-min-device-pixel-ratio: 2){
   .about-container {
@@ -424,11 +424,11 @@ Nav Styles
 **/
   .nav {
     position: fixed;
-    width: 100%;
+    width: 70%;
     height: 100%;
     background-color: #020202;
     top: -100%;
-    left: 0;
+    
     right: 0;
     bottom: 0;
     overflow: hidden;
@@ -444,8 +444,8 @@ Nav Styles
   }
 
   nav {
-    text-align: cent;
-    margin-left: 25%;
+    text-align: left;
+    margin-left: 10%;
     background-color: #000;
   }
 
