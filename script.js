@@ -9,6 +9,7 @@ const image4= document.getElementById('image4');
 const image5= document.getElementById('image5');
 const image6= document.getElementById('image6');
 const textBox= document.getElementById('text-box');
+const navPhone = document.getElementById('navPhone');
 
 
 // Dark or Light Image
@@ -25,10 +26,12 @@ function imageMode(color){
 // darkMode style
 function darkMode(){
     nav.style.backgroundColor= 'rgb(0 0 0/50%)';
+    navPhone.style.backgroundColor= 'rgb(0 0 0)';
     textBox.style.backgroundColor ='rgb(255 255 255/50%)';
     toggleIcone.children[0].textContent='Dark Mode';
     toggleIcone.children[1].classList.replace('fa-sun', 'fa-moon');
     imageMode('dark');
+    
     
   
 
@@ -37,11 +40,13 @@ function darkMode(){
 // darkMode style
 function lightMode(){
     nav.style.backgroundColor= 'rgb(255 255 255/50%)';
+    navPhone.style.backgroundColor= 'rgb(255 255 255)';
     textBox.style.backgroundColor ='rgb(0 0 0 /50%)';
     toggleIcone.children[0].textContent='Light Mode';
     toggleIcone.children[1].classList.replace('fa-moon', 'fa-sun');
     
     imageMode('light');
+   
 
 
 }

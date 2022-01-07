@@ -426,7 +426,7 @@ Nav Styles
     position: fixed;
     width: 70%;
     height: 100%;
-    background-color: #020202;
+    
     top: -100%;
     
     right: 0;
@@ -446,7 +446,8 @@ Nav Styles
   nav {
     text-align: left;
     margin-left: 10%;
-    background-color: #000;
+    background: rgb(255 255 255);
+    
   }
 
   nav a {
