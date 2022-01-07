@@ -1,0 +1,11 @@
+
+            <div class="buttons">
+                <button class="primary"> Primary</button>
+                <button class="secondary"> secondary</button>
+                <button class="primary"> Primary</button>
+                <button class="outline"> outline</button>
+                <button class="secondary"> secondary</button>
+                <button class="secondary outline"> alt outline</button>
+                <button class="outline" disabled> disabled</button>
+            </div>
+      
