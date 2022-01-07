@@ -327,7 +327,7 @@ input:checked+.slider::before {
 
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 480px)
+  and (max-device-width: 680px)
   and (-webkit-min-device-pixel-ratio: 2){
   .about-container {
     flex-direction: column;
